@@ -109,3 +109,29 @@ h2 {
   margin-top: 10px; /* Espacio superior para separar del título */
   text-align: center; /* Alinear texto al centro */
 }
+
+.reloj{
+  font-family: 'Hedvig Letters Sans', sans-serif;
+  color: black;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -450%);
+}
+
+.tiempo{
+font-family: 'Hedvig Letters Sans', sans-serif;
+  letter-spacing: 0.05em;
+  font-size: 24px;
+  padding: 5px 0;
+  display: inline-block; /* Mostrar en línea */
+}
+
+.fecha{
+font-family: 'Hedvig Letters Sans', sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 24px;
+  display: inline-block; /* Mostrar en línea */
+  margin-right: 10px; /* Espacio entre la fecha y el reloj */
+}
