@@ -145,7 +145,7 @@ font-family: 'Hedvig Letters Sans', sans-serif;
 #botones-emergentes button {
     margin: 0 10px;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #444;
     color: white;
     border: none;
     cursor: pointer;
