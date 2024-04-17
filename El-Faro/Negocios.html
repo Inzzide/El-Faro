@@ -101,6 +101,52 @@
         <p class="tiempo"></p>
     </div>
     <script src="script.js"></script>
+
+	<div id="botones-emergentes">
+        <button id="btn-enviar-noticia">Enviar Noticia</button>
+        <button id="btn-contacto">Contacto</button>
+    </div>
+
+    <div id="modal-enviar-noticia" class="modal">
+        <div class="modal-contenido">
+            <h2>Enviar Noticia Nueva</h2>
+            <form id="form-enviar-noticia">
+                <label for="titulo-noticia">Título de la Noticia:</label>
+                <input type="text" id="titulo-noticia" name="titulo-noticia" required>
+
+                <label for="categoria-noticia">Categoría:</label>
+                <select id="categoria-noticia" name="categoria-noticia" required>
+                    <option value="">Seleccionar categoría</option>
+					<option value="Deportes">Deportes</option>
+					<option value="Negocios">Negocios</option>
+                    </select>
+
+                <label for="descripcion-noticia">Descripción:</label>
+                <textarea id="descripcion-noticia" name="descripcion-noticia" rows="5" required></textarea>
+
+                <button type="submit">Enviar Noticia</button>
+            </form>
+            <button class="btn-cerrar" id="btn-cerrar-modal-enviar-noticia">Cerrar</button>
+        </div>
+    </div>
+
+    <div id="modal-contacto" class="modal">
+        <div class="modal-contenido">
+            <h2>Contacto</h2>
+            <form id="form-contacto">
+                <label for="nombre-completo">Nombre Completo:</label>
+                <input type="text" id="nombre-completo" name="nombre-completo" required>
+
+                <label for="mensaje-contacto">Mensaje:</label>
+                <textarea id="mensaje-contacto" name="mensaje-contacto" rows="5" required></textarea>
+
+                <button type="submit">Enviar Formulario</button>
+            </form>
+            <button class="btn-cerrar" id="btn-cerrar-modal-contacto">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 	
 	<!-- Footer -->
     <footer class="footer">
