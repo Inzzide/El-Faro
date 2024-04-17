@@ -135,3 +135,67 @@ font-family: 'Hedvig Letters Sans', sans-serif;
   display: inline-block; /* Mostrar en línea */
   margin-right: 10px; /* Espacio entre la fecha y el reloj */
 }
+
+#botones-emergentes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#botones-emergentes button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para los modales */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-contenido {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modal-contenido h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-contenido form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-contenido label {
+    margin-bottom: 5px;
+}
+
+.modal-contenido input,
+.modal-contenido textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.modal-contenido button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border
+}
